@@ -16,6 +16,17 @@ The complete study included 15 sites. This repository provides anonymized exampl
 
 The workflow progresses from GNSS logging tracks through trail-centreline derivation and trail-area delineation to site- and cell-level fragmentation analysis.
 
+## GNSS track consolidation
+
+The trail centrelines used in this analysis were derived from GNSS logging tracks using the **GNSS-Track-Consolidation** workflow.
+
+The consolidation workflow is maintained as a separate open GitHub repository:
+
+**[GNSS-Track-Consolidation](https://github.com/OMID018/GNSS-Track-Consolidation)**
+
+In the workflow shown above, this external processing step corresponds to the transition from **1. Input GNSS logging tracks** to **2. Trail centreline derivation**.
+
+The resulting trail centrelines are subsequently used for the spatial and fragmentation analyses in this repository.
 ## Repository structure
 
 - `R/` — R scripts for calculating site-level and cell-level metrics and for subsequent analysis.
