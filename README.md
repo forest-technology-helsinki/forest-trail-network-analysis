@@ -10,6 +10,12 @@ The workflow combines GNSS-based trail data processing, GIS-derived spatial laye
 
 The complete study included 15 sites. This repository provides anonymized example spatial data for Sites 2 and 4 to demonstrate the data structure and site-level analysis workflow. The complete research dataset is not distributed in this repository.
 
+## Analysis workflow
+
+![Forest trail network analysis workflow](docs/workflow.png)
+
+The workflow progresses from GNSS logging tracks through trail-centreline derivation and trail-area delineation to site- and cell-level fragmentation analysis.
+
 ## Repository structure
 
 - `R/` — R scripts for calculating site-level and cell-level metrics and for subsequent analysis.
